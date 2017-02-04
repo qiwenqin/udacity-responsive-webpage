@@ -10,15 +10,18 @@
 
 <body>
   <div class="container">
-      <header>
-          <div class="row">
-              <div class="col-md-6">
-                  <img src="images/me.jpg" alt="myself" class="me">
-              </div>
-              <div class="col-md-6 text-right">
-                  <h1>祁文钦</h1>
-                  <h4>前端工程师</h4>
-              </div>
+      <header class="row">
+          <div class="col-md-6">
+              <img src="images/me_100.jpg"
+              sizes="(max-width:600px) 100vw,(min-width:601px) 30vw,(min-width:1000px) 5vw"
+              srcset="images/me_200.jpg 200w, images/me_300.jpg 300w, images/me_100.jpg 100w"
+              alt="myself">
+
+          </div>
+
+          <div class="col-md-6 text-right">
+              <h1>祁文钦</h1>
+              <p>前端工程师</p>
           </div>
       </header>
       <div class="row">
@@ -26,41 +29,45 @@
               <hr>
           </div>
       </div>
-      <article>
-          <section class = "main">
-              <div class="row">
-                  <div class="col-md-12">
-                      <img class="img-responsive beautiful" src="images/3.jpg" alt="interview">
-                  </div>
-              </div>
-          </section>
-          <section class = "second">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="title">My achievement：</h2>
-                    </div>
-                </div>
-          </section>
-          <section class="third">
-              <div class="row flexible">
-                  <div class="col-md-4 ">
-                      <img class="img-responsive"  src="images/j1.jpg" alt="1">
-                      <h3 class="text-center">javascript</h3>
-                      <a href="https://qiwenqin.github.io/"><h4>https://qiwenqin.github.io/</h4></a>
-                  </div>
-                  <div class="col-md-4 ">
-                      <a href="http://sports.163.com/16/1214/07/C87T77C80005877U.html"><img class="img-responsive" src="images/j2.jpg" alt="2"></a>
-                      <h3 class="text-center">game</h3>
-                      <a href="https://qiwenqin.github.io/frontend-nanodegree-arcade-game/"><h4>https://qiwenqin.github.io/frontend-nanodegree-arcade-game/</h4></a>
-                  </div>
-                  <div class="col-md-4 ">
-                      <img class="img-responsive" src="images/j3.jpg" alt="3">
-                      <h3 class="text-center">ajax</h3>
-                      <a href="https://qiwenqin.github.io/udacity-ajax-miniproject/"><h4>https://qiwenqin.github.io/udacity-ajax-miniproject/</h4></a>
-                  </div>
-              </div>
-          </section>
-      </article>
+
+
+      <div class="row">
+          <div class="col-md-12">
+              <img class="img-responsive beautiful" src="images/3.jpg" alt="interview">
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-12">
+              <h2 class="title">My achievement：</h2>
+          </div>
+      </div>
+
+      <div class="row flexible">
+          <div class="col-md-4 ">
+              <article class="">
+                  <img class="img-responsive"  src="images/j1.jpg" alt="1">
+                  <p class="text-center">javascript</p>
+                  <a href="https://qiwenqin.github.io/" target="_blank"><h4>https://qiwenqin.github.io/</h4></a>
+              </article>
+          </div>
+
+          <div class="col-md-4">
+              <article class="">
+                  <a href="http://sports.163.com/16/1214/07/C87T77C80005877U.html" target="_blank"><img class="img-responsive" src="images/j2.jpg" alt="2"></a>
+                  <p class="text-center">game</p>
+                  <a href="https://qiwenqin.github.io/frontend-nanodegree-arcade-game/" target="_blank"><h4>https://qiwenqin.github.io/frontend-nanodegree-arcade-game/</h4></a>
+              </article>
+          </div>
+
+          <div class="col-md-4">
+              <article class="">
+                  <img class="img-responsive" src="images/j3.jpg" alt="3">
+                  <p class="text-center">ajax</p>
+                  <a href="https://qiwenqin.github.io/udacity-ajax-miniproject/" target="_blank"><h4>https://qiwenqin.github.io/udacity-ajax-miniproject/</h4></a>
+              </article>
+          </div>
+      </div>
   </div>
 </body>
 </html>

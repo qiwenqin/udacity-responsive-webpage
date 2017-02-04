@@ -4,18 +4,13 @@
   margin-top: 20px;
 }
 
-h1,h4 {
+h1,p {
   color: #2d3c49;
-  font-family:'微软雅黑';
+  font-family:"微软雅黑";
 }
 
 hr,.title {
   color: #7d97ad;
-}
-
-.flexible {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 html,body,main {
